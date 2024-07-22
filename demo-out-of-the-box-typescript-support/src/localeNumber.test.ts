@@ -11,6 +11,21 @@ describe('localeNumber', () => {
     )
   })
 
+  test.skip('number format examples', () => {
+    const number = -2777227.19
+
+    expect(Intl.NumberFormat('de-DE').format(number))
+      .toMatchInlineSnapshot()
+    expect(Intl.NumberFormat('us-US').format(number))
+      .toMatchInlineSnapshot()
+    expect(Intl.NumberFormat('fr-FR').format(number))
+      .toMatchInlineSnapshot()
+    expect(Intl.NumberFormat('de-CH').format(number))
+      .toMatchInlineSnapshot()
+    expect(Intl.NumberFormat('et-EE').format(number))
+      .toMatchInlineSnapshot()
+  })
+
   const numbers = [
     0, 1, 1.1, -1, 0.5, -17.42, 2001, 2777227.19, 9007199254740991, -9007199254740991,
   ]
