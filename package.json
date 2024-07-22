@@ -1,0 +1,22 @@
+{
+  "name": "vitest-demo",
+  "author": "Andrej Dyck",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "sideEffects": false,
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest watch"
+  },
+  "engine-strict": true,
+  "engines": {
+    "npm": "please-use-pnpm",
+    "yarn": "please-use-pnpm",
+    "pnpm": ">=9.5.0"
+  },
+  "devDependencies": {
+    "typescript": "5.5.3",
+    "vitest": "2.0.4"
+  }
+}
