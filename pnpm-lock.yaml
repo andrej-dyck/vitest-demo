@@ -15,6 +15,12 @@ importers:
         specifier: 2.0.4
         version: 2.0.4
 
+  demo-in-source-testing:
+    devDependencies:
+      vite:
+        specifier: 5.3.4
+        version: 5.3.4
+
   demo-out-of-the-box-typescript-support: {}
 
   demo-testing-types: {}
