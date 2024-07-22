@@ -15,7 +15,9 @@ importers:
         specifier: 2.0.4
         version: 2.0.4
 
-  out-of-the-box-typescript-support: {}
+  demo-out-of-the-box-typescript-support: {}
+
+  demo-testing-types: {}
 
 packages:
 
