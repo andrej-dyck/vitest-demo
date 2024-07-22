@@ -1,0 +1,7 @@
+{
+  "name": "@vitest-demo/extend-test-context",
+  "type": "module",
+  "dependencies": {
+    "@paralleldrive/cuid2": "2.2.2"
+  }
+}
