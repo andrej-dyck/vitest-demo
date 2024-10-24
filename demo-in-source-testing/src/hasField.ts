@@ -1,4 +1,4 @@
-import { expect, test } from "vitest"
+import { expect, test } from 'vitest'
 
 /**
  * Checks if the given object has the specified field.
@@ -6,7 +6,8 @@ import { expect, test } from "vitest"
 export const hasField = <P extends PropertyKey>(obj: unknown, key: P): obj is Record<P, unknown> =>
   obj != null && typeof obj === 'object' && key in obj
 
-if(import.meta.vitest) {
+// @ts-ignore
+if (import.meta.vitest) {
 
   test('hasField infers that a field exists on an unknown object', () => {
     const obj: unknown = { id: 1 }
